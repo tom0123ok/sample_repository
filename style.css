@@ -1,0 +1,990 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*ここからcss描いていく */
+/*ここからcss描いていく */
+/*ここからcss描いていく */
+/*ここからcss描いていく */
+/*ここからcss描いていく */
+body {
+
+  font-family: 'Shippori Mincho B1', serif;
+
+  margin: 0;
+}
+
+.fab {
+  padding-left: 18px;
+  font-size: large;
+}
+
+header {
+  width: 100%;
+  background-color: #293c59;
+  color: #fff;
+  padding: 36px 0px ;
+  display: flex;
+  align-items: center;
+ 
+}
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+header img {
+  /*letter-spacing: 3px;*/
+  width: 100px;
+  display: inline-block;
+  padding: 0 600px 0 100px;
+} 
+header li {
+ display: inline-block;
+} 
+header ul {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+} 
+header ul li a{
+  display: inline-block;
+  padding-right: 46px;
+} 
+header  a:hover {
+  opacity: 0.8;
+} 
+/*header*/
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+main {
+  background-color: #fff;
+} 
+main .main_img {
+  position: relative;
+}
+main .main_img p {
+  width: 100%;
+  line-height: 7rem;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+}
+main .main_img p span {
+  font-size: 40px;
+}
+main .main_img img{
+  width: 100%;
+  height: 700px;
+} 
+
+
+main .sec01 {
+  display: flex;
+} 
+main #features {
+  background-color: #fff;
+} 
+main #features .p_feature {
+  font-size: 40px;
+} 
+main #features p {
+  line-height: 3.4rem;
+  font-size: 25px;
+  text-align: center;
+  padding: 70px;
+  color: #293c59;
+} 
+main #features .sec01 .leftsec {
+  width: 50%;
+} 
+main #features .sec01 .leftsec img {
+  /*height: 541px;*/
+} 
+main #features .sec01 .rightsec {
+  display: inline-block;
+  background-color: #293c59;
+  width: 50%;
+}
+main #features .sec01 .rightsec p{
+  color: #fff;
+}
+main .sec02 {
+  display: flex;
+} 
+main #features .sec02 .rightsec {
+  width: 50%;
+} 
+main #features .sec02 .leftsec {
+  display: inline-block;
+  background-color: #fff;
+  width: 50%;
+}
+main #features .sec02 .leftsec {
+  text-align: center;
+}
+main #features .sec01 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 100px 0 0px 0;
+  color: #fff;
+}
+main #features .sec02 h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 100px 0 0px 0;
+  color: #293c59;
+}
+main #features .sec02 .leftsec p{
+  color: #293c59;
+}
+
+#sp_sec {
+  display: none;
+}
+#sp_sec .sp_container {
+  text-align: center;
+  padding-bottom: 80px;
+}
+main #sp_sec .sp_container p {
+  text-align: center;
+  padding: 0;
+  color: #293c59;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  line-height: 2rem;
+  font-size: 20px;
+}
+#sp_sec .sp_container img {
+  width: 550px;
+}
+#sp_sec .sp_container h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #293c59;
+}
+
+
+main #demos {
+  background-color:#293c59;
+} 
+main #demos p {
+  font-size: 40px;
+  text-align: center;
+  padding: 70px;
+  color: #fff;
+} 
+main #demos ul {
+  padding-bottom: 70px;
+}
+main #demos ul li img{
+  height: 300px;
+}
+
+main #purchases {
+  position: relative;
+  color: #293c59;
+}
+main #purchases h3 {
+  background-color: gold;
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+main #purchases h3 a{
+  border-bottom: 1px solid #293c59;
+  text-decoration: none;
+  color: #293c59;
+  font-weight: bolder;
+}
+main #purchases h3 a:hover{
+  border-bottom: none;
+  color: #293c59;
+  opacity: 0.5;
+}
+
+main #purchases .container h2{
+  font-size: 40px;
+  padding-top: 170px;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 78px;
+}
+main #purchases .container p{
+  padding: 30px 50px;
+}
+.news-list {
+  font-family: 'Shippori Mincho B1', serif;
+
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 140px;
+}
+.news-list li {
+  list-style: none;
+  padding: 30px 0;
+  border-bottom: 1px solid  #293c59;
+}
+.news-list li a {
+  display: block;
+  text-decoration: none;
+  color: #293c59;
+  font-size: 18px;
+}
+.news-list__border {
+  display: inline-block;
+  color: #293c59;
+  padding: 5px 8px;
+  margin: 0 30px;
+  font-size: 11px;
+  border-bottom: 1px solid  #293c59;
+}
+
+.news-list .sp_only {
+  display: none;
+}
+.news-list .padding_span {
+  padding-bottom: 0px;
+}
+
+
+/*main*/
+
+footer {
+  background-color: gold;
+  padding: 10px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+} 
+footer .img_container{
+  display: inline-block;
+  width: 100px;
+} 
+
+/*footer*/
+
+ 
+/* opening logo animation*/
+/* opening logo animation*/
+/* opening logo animation*/
+
+/* Loading背景画面設定　*/
+#splash {
+  /*fixedで全面に固定*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background:#293c59;
+    text-align:center;
+    color:#fff;
+  }
+  
+  /* Loading画像中央配置　*/
+  #splash_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Loading アイコンの大きさ設定　*/
+  #splash_logo img {
+    width:460px;
+  }
+  
+  /* fadeUpをするアイコンの動き */
+  .fadeUp{
+  animation-name: fadeUpAnime;
+  animation-duration:0.6s;
+  animation-fill-mode:both;
+  opacity: 0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(-100px);
+    z-index: 1;
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    z-index: 1;
+    }
+  }
+
+
+  /*==================================================
+スライダーのためのcss
+スライダーのためのcss
+スライダーのためのcss
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+  width:94%;
+   margin:0 auto;
+}
+
+.slider img {
+   width:100%;/*スライダー内の画像を横幅100%に*/
+   height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+   margin:0 10px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+   position: absolute;/*絶対配置にする*/
+   top: 42%;
+   cursor: pointer;/*マウスカーソルを指マークに*/
+   outline: none;/*クリックをしたら出てくる枠線を消す*/
+   border-top: 2px solid #666;/*矢印の色*/
+   border-right: 2px solid #666;/*矢印の色*/
+   height: 15px;
+   width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+   left: -1.5%;
+   transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+   right: -1.5%;
+   transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+   text-align:center;
+ margin:20px 0 0 0;
+}
+
+.slick-dots li {
+   display:inline-block;
+ margin:0 5px;
+}
+
+.slick-dots button {
+   color: transparent;
+   outline: none;
+   width:18px;/*ドットボタンのサイズ*/
+   height:18px;/*ドットボタンのサイズ*/
+   display:block;
+   border-radius:50%;
+   background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+   background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+
+/*========= ナビゲーションのためのCSS ===============*/
+  /*========= ナビゲーションのためのCSS ===============*/
+  /*========= ナビゲーションのためのCSS ===============*/
+  /*========= ナビゲーションのためのCSS ===============*/
+  /*========= ナビゲーションのためのCSS ===============*/
+
+  #g-nav{
+    /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+    position:fixed;
+    z-index: 999;
+    /*ナビのスタート位置と形状*/
+  top:0;
+    right: -120%;
+  width:100%;
+    height: 100vh;/*ナビの高さ*/
+  background:#293c59;
+    /*動き*/
+  transition: all 0.6s;
+  }
+
+  /*アクティブクラスがついたら位置を0に*/
+  #g-nav.panelactive{
+    right: 0;
+  }
+
+  /*ナビゲーションの縦スクロール*/
+  #g-nav.panelactive #g-nav-list{
+    /*ナビの数が増えた場合縦スクロール*/
+    position: fixed;
+    z-index: 999; 
+    width: 100%;
+    height: 100vh;/*表示する高さ*/
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*ナビゲーション*/
+  #g-nav ul {
+    /*ナビゲーション天地中央揃え*/
+    position: absolute;
+    z-index: 999;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width: 100%;
+    text-align: center;
+
+    line-height: 2.3rem;
+  }
+
+  /*リストのレイアウト設定*/
+
+  #g-nav li{
+  list-style: none;
+    text-align: center;
+  }
+
+  #g-nav li a{
+  color: #fff;
+  text-decoration: none;
+  padding:10px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  }
+  #g-nav li a:hover{
+    border-bottom: 1px solid gold;
+  }
+
+  /*========= ボタンのためのCSS ===============*/
+  .openbtn{
+    display: none;
+
+    position:fixed;
+      z-index: 9999;/*ボタンを最前面に*/
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+      width: 50px;
+      height:50px;
+  }
+
+  /*×に変化*/	
+  .openbtn span{
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #D9E1F1;
+    width: 45%;
+  }
+
+  .openbtn span:nth-of-type(1) {
+  top:15px;	
+  }
+
+  .openbtn span:nth-of-type(2) {
+  top:23px;
+  }
+
+  .openbtn span:nth-of-type(3) {
+  top:31px;
+  }
+
+  .openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+  }
+
+  .openbtn.active span:nth-of-type(2) {
+  opacity: 0;
+  }
+
+  .openbtn.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+  }
+@media (max-width: 1200px){
+  #sp_sec {
+    display: block;
+  }
+  main .sec01 {
+    display: none;
+  }
+  main .sec02 {
+    display: none;
+  }
+
+  main #demos ul li img {
+    height: 250px;
+    width: 100%;
+  }
+    
+}
+@media (max-width: 1020px){
+  header {
+    padding: 28px 0px;
+  }
+  .fab {
+    padding-left: 18px;
+    font-size: medium;
+  }
+  header img {
+    padding: 0 600px 0 80px;
+    width: 85px;
+  }
+  header ul li a {
+    display: inline-block;
+    padding-right: 40px;
+  }
+  main .main_img p {
+    font-size: 50px;
+  }
+  main #features p {
+    font-size: 20px;
+  }
+  main .main_img img {
+    height: 560px;
+  }
+
+  main #demos ul li img {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px){
+  main #purchases .container  {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  main #purchases .container #news {
+    margin-bottom: 0px;
+  }
+  main #purchases .container .news-list {
+    max-width: 100%;
+  }
+  .news-list__block {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+  main #purchases .container .news-list {
+    max-width: 100%;
+  }
+
+  .news-list li {
+    padding: 30px 0 10px 0;
+    border-bottom: 1px solid #293c59;
+  }
+
+  .news-list .sp_only {
+    display: block;
+  }
+  .news-list .padding_span {
+    margin-top: 10px;
+    line-height: 3rem;
+    line-height: 1.5rem;
+    display: block;
+  }
+  
+
+}
+
+@media (max-width: 868px){
+
+  header img {
+    padding:0 2px 0 65px;
+  }
+
+  header ul {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    display: none;
+  } 
+  header .sp_only {
+    display: block;
+  } 
+  header ul li a {
+    padding-right: 35px;
+  }
+  main .main_img img {
+    height: 500px;
+  }
+  main .main_img p {
+    font-size: 43px;
+  }
+  main .main_img p span {
+    font-size: 35px;
+  }
+  main #features p {
+    line-height: 3.4rem;
+    font-size: 18px;
+    padding: 50px;
+  }
+  main #features .p_feature {
+    font-size: 34px;
+  }
+  main #features .sec01 h2 {
+    font-size: 33px;
+  }
+  main #features .sec02 h2 {
+    font-size: 33px;
+  }
+
+  #sp_sec .sp_container h2 {
+    font-size: 26px;
+  }
+  main #sp_sec .sp_container p {
+    font-size: 17px;
+}
+
+  main #demos p {
+    font-size: 31px;
+    padding: 55px;
+  }
+
+  .openbtn{
+    display: block;
+
+    position:fixed;
+      z-index: 9999;/*ボタンを最前面に*/
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+      width: 50px;
+      height:50px;
+  }
+  .openbtn .fab {
+    text-align: center;
+  }
+
+
+  main #demos ul li img {
+    height: 170px;
+  }
+
+
+
+}
+
+@media (max-width: 768px){
+  main #demos ul li img {
+    height: 226px;
+  }
+
+}
+@media (max-width: 728px){
+  main .main_img img {
+    height: 400px;
+  }
+  main .main_img p {
+    font-size: 37px;
+  }
+}
+@media (max-width: 660px){
+  main #demos ul li img {
+    height: 210px;
+  }
+}
+@media (max-width: 600px){
+  main .main_img img {
+    height: 360px;
+  }
+  main .main_img p {
+    font-size: 33px;
+    line-height: 5rem;
+  }
+  main .main_img p span {
+    font-size: 28px;
+  }
+  header img {
+    padding: 0 2px 0 55px;
+  }
+
+  main #features p {
+    padding: 40px;
+  }
+  main #features .p_feature {
+    font-size: 30px;
+  }
+
+  #sp_sec .sp_container h2 {
+    font-size: 24px;
+  }
+  main #sp_sec .sp_container p {
+    font-size: 15px;
+    padding: 20px 20px 30px 20px;
+  }
+  main #demos p {
+    font-size: 30px;
+    padding: 50px;
+  }
+  main #purchases .container h2 {
+    font-size: 30px;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    font-weight: normal;
+  }
+
+  #sp_sec .sp_container img {
+    width: 480px;
+  }
+  #sp_sec .sp_container h2 {
+    font-size: 22px;
+  } 
+
+  main #demos ul li img {
+    height: 190px;
+  }
+
+}
+
+@media (max-width: 540px){
+  main #demos ul li img {
+    height: 160px;
+  }
+}
+@media (max-width: 500px){
+  header {
+    padding: 20px 0px;
+  }
+  header img {
+    padding: 0 2px 0 40px;
+}
+  main .main_img p {
+    font-size: 28px;
+  }
+  main .main_img img {
+    height: 310px;
+  }
+  main .main_img p span {
+    font-size: 22px;
+  }
+
+  #sp_sec .sp_container img {
+    width: 400px;
+  }
+
+  #g-nav li a {
+    font-size: 15px;
+  }
+  
+  #splash_logo img {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  main #demos ul li img {
+    height: 140px;
+  }
+}
+@media (max-width: 425px){
+  main #demos ul li img {
+    height: 230px;
+  }
+
+}
+@media (max-width: 400px){
+  header img {
+    padding: 0 0px 0 30px;
+    width: 75px;
+  }
+  main .main_img p {
+    font-size: 23px;
+    line-height: 4rem;
+  }
+  main .main_img p span {
+    font-size: 20px;
+  }
+  main .main_img img {
+    height: 280px;
+  }
+
+  #sp_sec .sp_container img {
+    /* padding: 0 10px; */
+    width: 98%;
+  }
+
+  
+
+}
+@media (max-width: 375px){
+  main #features p {
+    padding: 33px;
+  }
+  main #features .p_feature {
+    font-size: 27px;
+  }
+
+  #sp_sec .sp_container h2 {
+    font-size: 20px;
+  }
+  main #sp_sec .sp_container p {
+    font-size: 12px;
+  }
+  main #demos p {
+    font-size: 25px;
+    padding: 42px;
+  }
+
+
+  #g-nav ul {
+    top: 47%;
+  }
+
+
+}
+
+@media (max-width: 360px){
+  .news-list .padding_span {
+    line-height: 1.5rem;
+  }
+  .news-list .padding_span {
+    margin-top: 10px;
+    line-height: 3rem;
+    line-height: 1.5rem;
+    display: block;
+  }
+
+  @media (max-width: 335px){
+    main #demos ul li img {
+      height: 200px;
+    }
+
+  }
+
+}
